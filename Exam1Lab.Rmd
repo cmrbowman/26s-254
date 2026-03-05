@@ -1,0 +1,117 @@
+---
+title: "Math 254 Exam 1 Lab"
+author: "YOUR NAME HERE"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r}
+evals <- read.csv("https://raw.githubusercontent.com/cmrbowman/26s-254/refs/heads/main/evals.csv")
+library(ggplot2)
+library(perm)
+library(boot)
+```
+
+# Section I
+
+## Question 1.
+
+### What is the median professor evaluation score at UT Austin?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 2.
+
+### Are male professors rated more highly than female professors?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 3.
+
+### On average, how much higher are male professors rated than female professors?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 4.
+
+### Do professors with above average "beauty" get better ratings than their "uglier" colleagues?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 5.
+
+### Are rank and ethnicity related?
+
+TEXT
+
+```{r}
+
+```
+
+# Section II
+
+## Question 6.
+
+### Can we conclude that professors are rated differently *because* of their gender? Why or why not?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 7.
+
+### Do your results to (3) change if you look only at professors younger than 40? How about if you look only at professors over the age of 60? Do these results change your thoughts on gender bias in evaluations?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 8.
+
+### Do you think the assumption that the rows are independent is reasonable? Why or why not?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 9.
+
+### Generate one plot/figure/table related to one of the questions in Section I. Write a short caption explaining your figure. In general, why is it important to visualize data rather than just relying on statistical techniques?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 10.
+
+### Do you think that our conclusions on this exam would generalize to other universities? Why or why not?
+
+TEXT
+
+```{r}
+
+```
