@@ -1,0 +1,101 @@
+---
+title: "Math 254 Exam 2 Lab"
+author: "YOUR NAME HERE"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r}
+insurance <- read.csv("https://raw.githubusercontent.com/cmrbowman/26s-254/refs/heads/main/insurance.csv")
+library(ggplot2)
+```
+
+## Question 1.
+
+### Make a plot showing charges (Y) as a function of age (X). Describe what you see, and briefly explain why the plot might look like this. (Hint: the lower ``band'' is for people who did not use their insurance that year, so the total expenses are just their premiums, i.e., the cost of their healthcare plan.)
+
+TEXT
+
+```{r}
+
+```
+
+## Question 2.
+
+### Fit a model predicting charges using age. State the equation of this model and interpret all coefficients (or explain why they are not interpretable).
+
+TEXT
+
+```{r}
+
+```
+
+## Question 3.
+
+### Fit a model predicting charges using both age and sex. State the equation of this model and interpret all coefficients (or explain why they are not interpretable).
+
+TEXT
+
+```{r}
+
+```
+
+## Question 4.
+
+### The coefficients of age in (2) and (3) are slightly different. Which do you think is a more accurate representation of the true "cost" of being one year older? Why?
+
+TEXT
+
+```{r}
+
+```
+
+## Question 5.
+
+### Fit a model for charges only as a function of bmi * smoker. (This should automatically include both bmi and smoker by themselves.) State the equation of this model and interpret all coefficients (or explain why they are not interpretable). (If certain coefficients must be interpreted together, explain how and why.)
+
+TEXT
+
+```{r}
+
+```
+
+## Question 6.
+
+### The coefficient of smoker in (5) should be both extremely negative and extremely statistically significant. This seems to indicate that smokers, on average, have lower medical expenses. Explain why this is false.
+
+TEXT
+
+```{r}
+
+```
+
+## Question 7.
+
+### Develop your own model for charges in terms of the other variables. Show all work. Your model does not need to be the absolute best model possible, but should show at least one example of deciding to put a term in the model (and why) and at least one example of deciding NOT to put a term in the model (and why). Explicitly, your model should include at least one interaction term or nonlinear term, at least one numerical/quantitative variable, and at least one categorical/qualitative variable.
+
+TEXT
+
+```{r}
+
+```
+
+## Question 8.
+
+### Explain why adding an age^5 term to your model would not make it better, even though it reduces SSE.
+
+TEXT
+
+```{r}
+
+```
+
+## Question 9.
+
+### Re-fit your model, but with charges replaced by log(charges). Briefly explain why statisticians might make such a change (regardless of whether it is warranted in this case) and how to interpret the new model.
+
+TEXT
+
+```{r}
+
+```
